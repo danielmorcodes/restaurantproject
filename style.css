@@ -48,12 +48,57 @@ body {
   height: 20rem;
 }
 .logo {
-  width: 50px;
+  width: 100%;
   position: relative;
   margin-left: 500px;
   margin-top: -150px;
+  position: fixed;
+}
+.logo-background{
+  background-color: white;
+  height: 3rem;
+  width: 100%;
+  position: relative;
+    margin-left: 500px;
+    margin-top: -150px;
+    position: fixed;
+  
 }
 
+.image1 img:hover {
+  background-color:white;
+  opacity:0.8;
+  transition: ease-in-out .2s;
+}
+
+header{
+  margin-bottom: 3rem;
+}
+
+/*---====== HEADER SECTION ENDS HERE =======--*/
+
+.menu{
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%;
+  justify-content: space-around;
+}
+
+/*---====== MENU SECTION ENDS HERE =======--*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*---====== MEDIA QUERY SECTION STARTS HERE =======--*/
 
 @media screen and (max-width: 450px) {
   .overlay a {font-size: 20px}
@@ -64,7 +109,7 @@ body {
   }
   .logo {
     width: 50px;
-    position: relative;
+    position: fixed;
     margin-left: 65px;
     margin-top: -125px;
   }
